@@ -14,3 +14,7 @@ then
 else
     echo "File IS modified"
 fi
+      GNU nano 7.2                       Dockerfile *                               
+FROM httpd
+COPY index.html /usr/local/apache2/htdocs/
+
